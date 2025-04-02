@@ -1,17 +1,67 @@
-**Apple Collector**  
-====================
-Jest to program, służący do optymalizacji zbierania jabłek w sadzie. 
+- Nagłówki tekstowe (poziomy 1-4)
 
-**Instalacja**
---------------------
-Do zainstalowania programu, należy użyć komendy
-``pip install -U AppleCollector``
 
-Przykłady użycia:
+==========
+Nagłówek poziomu 1
+==========
 
-* Kuracja pinginów
-* Spawanie bananów
+Nagłówek poziomu 2
+==========
 
-`Zadowolony klient <https://pl.wikipedia.org/wiki/Tux_(maskotka)>`_
+Nagłówek poziomu 3
+----------
 
-.. image:: https://pl.wikipedia.org/wiki/Plik:Tux.svg
+Nagłówek poziomu 4
+^^^^^^^^^^
+
+- Akapit tekstowy (treść)
+
+Akapit tekstowy z treścią
+
+- Akapit informacyjny (Note, Tip)
+
+.. Note::
+Treść notatki
+
+.. Tip::
+Treść wskazówki
+
+- Fragment kodu (liniowy, blokowy)
+
+``kod liniowy`` ::
+
+  Kod
+  Blokowy
+
+- Odnośnik (lokalny RtD, zewnętrzny-inny serwis)
+
+lokalny :ref:`Tip`
+
+zewnętrzny `Link tutaj <https://edu.gplweb.pl/?svc=courses&id=tida&lesson=14&class=4tp&load=43>`_
+
+- Listy
+
+#. Lista
+#. Numerowana
+
+* Lista
+* Wypunktowana 
+
+Lista
+  Definicji
+Kolejna
+  Przykład
+
+.. figure:: http://passnownow.com/wp-content/uploads/2015/06/duck.jpg
+   :alt: kaczka zdj
+
+   Podpis - kaczka typu fajna
+
+- Tabela
+
++------------------------------+----------------------------+
+|       Tabela typu fajne      |          Jabłko            |
+|                              |          Duże              |
++==============================+============================+
+|                              |         Rzecz              |
++------------------------------+----------------------------+
